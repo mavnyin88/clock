@@ -6,14 +6,16 @@
 // }, 1000)
 
 
+
 setInterval(function(){
 var curDate = new Date();
 if(curDate.getHours() > 12){
-document.getElementById("hour").innerHTML = curDate.getHours() - 12;
+document.getElementById("hour").innerHTML = "0"+curDate.getHours() - 12;
 }
 else{
-document.getElementById("hour").innerHTML = curDate.getHours();	
+	document.getElementById("hour").innerHTML = curDate.getHours(); 
 }
+
 if(curDate.getMinutes() < 10){
 document.getElementById("minutes").innerHTML = "0"+curDate.getMinutes();
 }
@@ -23,6 +25,7 @@ else{
 document.getElementById("seconds").innerHTML = curDate.getSeconds();
 document.getElementById("milliseconds").innerHTML = curDate.getMilliseconds();
 }, 1000)
+
 
 // function getDay() { }
 // curDate.getDay()
