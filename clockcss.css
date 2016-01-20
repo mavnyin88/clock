@@ -1,8 +1,7 @@
-
 .wrapper{
 	background-color: lightgreen;
 	padding: 20px;
-	width: 1000px;
+	width: 1100px;
 	height: 175px;
 	margin: 0 auto;
 	border: 10px #000 solid;
@@ -32,24 +31,3 @@ span{
 	padding: 0;
 	border: 0;
 }
-/*
-#hour{
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-
-#minutes{
-	margin: 0;
-	padding: 0;
-}
-
-#seconds{
-	margin: 0;
-	padding: 0;
-}
-
-#milliseconds{
-	margin: 0;
-	padding: 0;
-}*/
