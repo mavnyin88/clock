@@ -1,7 +1,5 @@
 
 .wrapper{
-	text-align: center;
-	font-size: 140px;
 	background-color: lightgreen;
 	padding: 20px;
 	width: 1000px;
@@ -12,8 +10,10 @@
 }
 
 .wrapper2{
-	margin-right:auto;
-	margin-left:auto;
+
+	font-size: 140px;
+	text-align: center;
+	padding: 10px;
 
 }
 
@@ -25,9 +25,31 @@
 	padding-bottom: 2px;
 	border: 5px #000 solid;
 	border-radius: 25px;
-	
 }
 
-#hour{
-	margin: 0 auto;
+span{
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
+/*
+#hour{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#minutes{
+	margin: 0;
+	padding: 0;
+}
+
+#seconds{
+	margin: 0;
+	padding: 0;
+}
+
+#milliseconds{
+	margin: 0;
+	padding: 0;
+}*/

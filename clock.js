@@ -10,7 +10,7 @@
 setInterval(function(){
 var curDate = new Date();
 if(curDate.getHours() > 12){
-document.getElementById("hour").innerHTML = "0"+curDate.getHours() - 12;
+document.getElementById("hour").innerHTML = curDate.getHours() - 12;
 }
 else{
 	document.getElementById("hour").innerHTML = curDate.getHours(); 
