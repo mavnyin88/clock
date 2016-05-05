@@ -1,6 +1,3 @@
 # Clock
 
--Simple Clock for browser using:
-  HTML
-    CSS
-      Javascript
+-Simple Clock for browser using: HTML, CSS, Javascript
